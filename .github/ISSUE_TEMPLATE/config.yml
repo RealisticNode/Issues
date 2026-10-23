@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord support
+    url: https://discord.gg/GzxW2FANPB
+    about: Questions and setup help — open a ticket on our Discord.
+  - name: Wiki
+    url: https://realisticnode.gitbook.io/rnsetups
+    about: Commands, permissions, configuration and FAQ for every plugin.

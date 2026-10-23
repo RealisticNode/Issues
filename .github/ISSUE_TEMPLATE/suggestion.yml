@@ -1,0 +1,25 @@
+name: Suggestion
+description: Ideas for new features or improvements.
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: You can write in English or Spanish — también puedes escribir en español.
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - rnKoth
+        - rnChatGames
+        - rnPsMenu
+        - rnCasino
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to see, and why would it help your server?
+    validations:
+      required: true

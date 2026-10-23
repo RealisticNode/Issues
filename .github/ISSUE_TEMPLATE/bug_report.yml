@@ -1,0 +1,64 @@
+name: Bug report
+description: Something doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search existing issues first.
+        You can write in English or Spanish — también puedes escribir en español.
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - rnKoth
+        - rnChatGames
+        - rnPsMenu
+        - rnCasino
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Shown in `/version <plugin>` or the jar name.
+      placeholder: "1.0.2"
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: Server software and version
+      description: Output of `/version`.
+      placeholder: "Paper 26.3 build 194"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run /...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Errors / console log
+      description: Paste the full error from the console, or a link (https://mclo.gs).
+      render: shell
+  - type: textarea
+    id: extra
+    attributes:
+      label: Config, screenshots or other info
+      description: Relevant config parts, other plugins involved (WorldGuard, PlaceholderAPI…), screenshots.
