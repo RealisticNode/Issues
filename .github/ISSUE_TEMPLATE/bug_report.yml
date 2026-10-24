@@ -16,6 +16,7 @@ body:
         - rnChatGames
         - rnPsMenu
         - rnCasino
+        - rnCombatPvP
     validations:
       required: true
   - type: input

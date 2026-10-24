@@ -8,6 +8,7 @@ Public issue tracker for the RealisticNode Minecraft plugins:
 | **rnChatGames** | https://realisticnode.gitbook.io/rnsetups/rnchatgames |
 | **rnPsMenu** | https://realisticnode.gitbook.io/rnsetups/rnpsmenu |
 | **rnCasino** | https://realisticnode.gitbook.io/rnsetups/rncasino |
+| **rnCombatPvP** | https://realisticnode.gitbook.io/rnsetups/rncombatpvp |
 
 ## How to report
 
